@@ -1,0 +1,10 @@
+
+configurations {
+    provided
+    compile.extendsFrom provided
+}
+
+dependencies{
+    compile libraries.powermock
+    testCompile "junit:junit:4.13.2"
+}
